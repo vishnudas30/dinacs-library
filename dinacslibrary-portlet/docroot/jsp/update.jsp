@@ -23,10 +23,6 @@
 
 <br/>Calender:<input type="date"     name="<portlet:namespace/>Calendar"/>
 
-<P>
-<INPUT TYPE="CHECKBOX" NAME="noEmail" CHECKED>
-Check here if you do <I>not</I> want to 
-get our email newsletter
 
 <DL>
   <DT>Book Type:
