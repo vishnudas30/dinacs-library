@@ -15,12 +15,27 @@
 
  <form name="<portlet:namespace/>fm" method="POST" 
  action="<%= updateBookURL.toString() %>"> 
- Book Title: <input type="text" name="<portlet:namespace/>bookTitle" /> 
-<br/>Author: <input type="text" name="<portlet:namespace/>author" /> 
+ Book Title: <input type="text"      name="<portlet:namespace/>bookTitle" /> 
+<br/>Author: <input type="text"      name="<portlet:namespace/>author" /> 
 
-<br/>Bookid:<input type="number" name="<portlet:namespace/>Bookid"/>
-<br/>Booktype:<input type="checkbox" name="<portlet:namespace/>Bookid"/>
-<br/>Calender:<input type="date" name="<portlet:namespace/>Calendar"/>
+<br/>Bookid:<input type="number"     name="<portlet:namespace/>Bookid"/>
+
+
+<br/>Calender:<input type="date"     name="<portlet:namespace/>Calendar"/>
+
+
+<DL>
+  <DT>Book Type:
+  <DD><INPUT TYPE="RADIO" NAME="BOOKTYPE" VALUE="TECHNICAL">
+      TECHNICAL
+  <DD><INPUT TYPE="RADIO" NAME="BOOKTYPE" VALUE="ART">
+      ART
+  
+  <DD><INPUT TYPE="RADIO" NAME="BOOKTYPE" VALUE="COMMERCE">
+      COMMERCE
+  <DD><INPUT TYPE="RADIO" NAME="BOOKTYPE" VALUE="SCIENCE">
+      SCIENCE
+<DL>
 
 
 <br/> <input type="submit" value="Save" /> 
