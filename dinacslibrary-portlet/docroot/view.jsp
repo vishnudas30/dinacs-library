@@ -9,5 +9,3 @@ This is the <b>Dinacslibrary</b> portlet.
 <portlet:renderURL var="updateBookURL"> 
 <portlet:param name="jspPage" value="/html/library/update.jsp"/>
  </portlet:renderURL> <br/><a href="<%= updateBookURL %>">Add new Book &raquo;</a>
-
-hi datta
