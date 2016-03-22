@@ -2,7 +2,7 @@ package snippet;
 
 public class Snippet {
 	public static void main(String[] args) {
-		<portlet:namespace/>
+		System.out.println("please write your loc here");
 	}
 }
 
